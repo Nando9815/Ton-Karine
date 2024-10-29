@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+*{margin: 0;
+padding: 0;}
+@font-face 
+{
+    
+    font-family: 'Play';
+    src: url(Fonts/PlaywriteGBS-VariableFont_wght.ttf) format('opentype');
+    font-weight: normal;
+}
+@font-face{ font-family: 'ubuntu';
+    src: url(Fonts/ubuntu/Ubuntu-Bold.ttf) format('opentype');
+    font-weight: normal;}
+
+
+header{
+    display: flex;
+     background-color: #22b30c;
+     margin-bottom: -20px;
+     margin-top: -25px;
+     width: 100%;
+     height: 100%;
+       
+     
+}   
+header picture.logo-ton{width: 100%;
+    padding-top: 15px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+   
+}   
+
+ 
+header picture.logo-karine{width: 100%;
+    padding-left: 300px;
+    max-width: 350px;
+    min-width: 100px;   
+    display: block;
+    margin: auto;
+    padding-left: 60px;
+    flex-wrap: nowrap;
+}
+.nav-item{font-weight: bold;
+}
+.col-6{ border: .5px solid rgb(117, 117, 117);
+border-radius: 15px;
+margin-top: 25px;
+
+}
+.ph1{font-size: 3em;
+text-align: center;
+margin-top: 100px;
+font-family: 'Play', Geneva, Tahoma, sans-serif;
+font-weight: bold;
+padding-bottom: 25px;
+}
+span{color: #037c1d;
+}
+.ph2{font-size: 2.3em;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Play', Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.accordion-header{border: .5px solid rgba(0, 0, 0, 0.295);
+    font-family: 'ubuntu', 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+footer{text-align: center;
+padding: 35px;
+}
+
+.btn-outline-success{padding: 15px 70px 15px 70px;
+    border-radius: 35px;
+    background-color: #0ce43b;
+    color: black;
+}
+
+.btn-success{padding: 15px 90px 15px 90px;
+border-radius: 35px;
+background-color: #0ce43b;
+}
+
+
+.btn-check{padding-left: 45px;
+padding-right: 45px;
+}
+
+.btn-outline-primary{padding-right: 45px;
+padding-left: 45px;
+border: 1px solid black;
+color: black;
+}
+.col{ font-family: 'Play', Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+
+}
+
+.span01{ color: #037c1d;
+font-weight: bold;
+text-align: center;
+}
+
+.containertext-center{
+margin: 15px;}
+
+#h1{text-align: center;
+    font-family: 'Play', Geneva, Tahoma, sans-serif;
+font-weight: bolder;
+}
+.card{ margin-right: 50px;
+margin-bottom: 25px;
+max-width: 100%;}
